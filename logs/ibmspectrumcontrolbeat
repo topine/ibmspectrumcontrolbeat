@@ -1,0 +1,38 @@
+2021-05-06T15:00:03.685+0200	INFO	instance/beat.go:654	Home path: [/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat] Config path: [/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat] Data path: [/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat/data] Logs path: [/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat/logs]
+2021-05-06T15:00:03.736+0200	INFO	instance/beat.go:662	Beat ID: 753904be-3d5c-420a-801d-1ce416b471ad
+2021-05-06T15:00:03.775+0200	INFO	[beat]	instance/beat.go:996	Beat info	{"system_info": {"beat": {"path": {"config": "/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat", "data": "/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat/data", "home": "/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat", "logs": "/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat/logs"}, "type": "ibmspectrumcontrolbeat", "uuid": "753904be-3d5c-420a-801d-1ce416b471ad"}}}
+2021-05-06T15:00:03.775+0200	INFO	[beat]	instance/beat.go:1005	Build info	{"system_info": {"build": {"commit": "7727a287e9412f3d278b2fe54ddc2188f00467f5", "libbeat": "8.0.0", "time": "2021-05-06T12:42:25.000Z", "version": "8.0.0"}}}
+2021-05-06T15:00:03.775+0200	INFO	[beat]	instance/beat.go:1008	Go runtime info	{"system_info": {"go": {"os":"darwin","arch":"amd64","max_procs":8,"version":"go1.16.3"}}}
+2021-05-06T15:00:03.776+0200	INFO	[beat]	instance/beat.go:1012	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2021-04-26T08:54:01.490627+02:00","name":"NCELRND0762","ip":["127.0.0.1/8","::1/128","fe80::1/64","fe80::aede:48ff:fe00:1122/64","fe80::f5da:52e:6caf:7ec4/64","fe80::46ee:16bf:2ade:7af6/64","fe80::10d0:272d:c7dd:b72d/64","172.16.218.15/24"],"kernel_version":"19.6.0","mac":["ac:de:48:00:11:22","f2:18:98:a0:1d:61","f0:18:98:a0:1d:61","82:6c:92:64:14:01","82:6c:92:64:14:00","82:6c:92:64:14:05","82:6c:92:64:14:04","82:6c:92:64:14:01","02:18:98:a0:1d:61","f6:e0:a9:09:45:1b","f6:e0:a9:09:45:1b","30:23:03:73:c2:4d"],"os":{"type":"macos","family":"darwin","platform":"darwin","name":"Mac OS X","version":"10.15.7","major":10,"minor":15,"patch":7,"build":"19H114"},"timezone":"CEST","timezone_offset_sec":7200,"id":"A299B8F3-DF96-57EF-A0E9-3BA0E8F62FF4"}}}
+2021-05-06T15:00:03.776+0200	INFO	[beat]	instance/beat.go:1041	Process info	{"system_info": {"process": {"cwd": "/Users/apimenteldasilvatopi/workspace/go/src/github.com/topine/ibmspectrumcontrolbeat", "exe": "./ibmspectrumcontrolbeat", "name": "ibmspectrumcontrolbeat", "pid": 23965, "ppid": 31100, "start_time": "2021-05-06T15:00:02.307+0200"}}}
+2021-05-06T15:00:03.776+0200	INFO	instance/beat.go:309	Setup Beat: ibmspectrumcontrolbeat; Version: 8.0.0
+2021-05-06T15:00:03.776+0200	INFO	[index-management]	idxmgmt/std.go:184	Set output.elasticsearch.index to 'ibmspectrumcontrolbeat-8.0.0' as ILM is enabled.
+2021-05-06T15:00:03.776+0200	INFO	eslegclient/connection.go:99	elasticsearch url: http://localhost:9200
+2021-05-06T15:00:03.776+0200	INFO	[publisher]	pipeline/module.go:113	Beat name: NCELRND0762
+2021-05-06T15:00:03.777+0200	INFO	[monitoring]	log/log.go:117	Starting metrics logging every 30s
+2021-05-06T15:00:03.777+0200	INFO	instance/beat.go:473	ibmspectrumcontrolbeat start running.
+2021-05-06T15:00:03.777+0200	INFO	beater/IbmSpectrumControlbeat.go:37	ibmspectrumcontrolbeat is running! Hit CTRL-C to stop it.
+2021-05-06T15:00:06.741+0200	INFO	[add_cloud_metadata]	add_cloud_metadata/add_cloud_metadata.go:101	add_cloud_metadata: hosting provider type not detected.
+2021-05-06T15:00:06.741+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:06.741+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:06.781+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:07.741+0200	INFO	[publisher_pipeline_output]	pipeline/output.go:143	Connecting to backoff(elasticsearch(http://localhost:9200))
+2021-05-06T15:00:07.741+0200	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+2021-05-06T15:00:07.742+0200	INFO	[publisher]	pipeline/retry.go:223	  done
+2021-05-06T15:00:07.782+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:08.777+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:09.348+0200	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(http://localhost:9200)): Get "http://localhost:9200": dial tcp 127.0.0.1:9200: connect: connection refused
+2021-05-06T15:00:09.348+0200	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(http://localhost:9200)) with 1 reconnect attempt(s)
+2021-05-06T15:00:09.348+0200	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+2021-05-06T15:00:09.348+0200	INFO	[publisher]	pipeline/retry.go:223	  done
+2021-05-06T15:00:09.779+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:10.778+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:11.778+0200	INFO	beater/IbmSpectrumControlbeat.go:62	Event sent
+2021-05-06T15:00:11.818+0200	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(http://localhost:9200)): Get "http://localhost:9200": dial tcp [::1]:9200: connect: connection refused
+2021-05-06T15:00:11.818+0200	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(http://localhost:9200)) with 2 reconnect attempt(s)
+2021-05-06T15:00:11.818+0200	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+2021-05-06T15:00:11.818+0200	INFO	[publisher]	pipeline/retry.go:223	  done
+2021-05-06T15:00:12.332+0200	INFO	[monitoring]	log/log.go:152	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":38,"time":{"ms":38}},"total":{"ticks":87,"time":{"ms":87},"value":87},"user":{"ticks":49,"time":{"ms":49}}},"info":{"ephemeral_id":"af788d47-bf39-427d-8f42-5e8bfbb75fb8","uptime":{"ms":8660}},"memstats":{"gc_next":6716112,"memory_alloc":4846272,"memory_sys":75318280,"memory_total":12311392,"rss":33636352},"runtime":{"goroutines":14}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0},"type":"elasticsearch"},"pipeline":{"clients":0,"events":{"active":8,"published":8,"retry":3,"total":8},"queue":{"max_events":4096}}},"system":{"cpu":{"cores":8},"load":{"1":2.9316,"15":4.2939,"5":3.1108,"norm":{"1":0.3665,"15":0.5367,"5":0.3889}}}}}}
+2021-05-06T15:00:12.332+0200	INFO	[monitoring]	log/log.go:153	Uptime: 8.661380511s
+2021-05-06T15:00:12.332+0200	INFO	[monitoring]	log/log.go:130	Stopping metrics logging.
+2021-05-06T15:00:12.332+0200	INFO	instance/beat.go:479	ibmspectrumcontrolbeat stopped.

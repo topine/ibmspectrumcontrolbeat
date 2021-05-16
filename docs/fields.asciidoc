@@ -9518,15 +9518,15 @@ example: stretch
 None
 
 
-*`counter`*::
+*`storage_avg_write_io_ops_per_second`*::
 +
 --
-PLEASE UPDATE DOCUMENTATION
+Average number of all read and write operations per second (both sequential and non-sequential, if applicable), for a particular component over a particular time interval.
 
 
 type: long
 
-required: True
+required: False
 
 --
 

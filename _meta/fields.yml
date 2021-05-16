@@ -1,9 +1,9 @@
 - key: ibmspectrumcontrolbeat
   title: ibmspectrumcontrolbeat
-  description:
+  description: Ibm Spectrum metrics
   fields:
-    - name: counter
-      type: long
-      required: true
-      description: >
-        PLEASE UPDATE DOCUMENTATION
+#    - name: storage_avg_write_io_ops_per_second
+#      type: double
+#      required: false
+#      description: >
+#        Average number of all read and write operations per second (both sequential and non-sequential, if applicable), for a particular component over a particular time interval.

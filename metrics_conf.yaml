@@ -1,0 +1,49 @@
+metrics:
+  storage_systems_and_volumes:
+#    - ibm_spectrum_metric_id: 1029
+#      event_field_name: storage_invalid_link_transmission_rate
+#
+#    - ibm_spectrum_metric_id: 803
+#      event_field_name: storage_avg_read_io_ops_per_second
+#
+    - ibm_spectrum_metric_id: 806
+      event_field_name: storage_avg_write_io_ops_per_second
+#
+#    - ibm_spectrum_metric_id: 809
+#      event_field_name: storage_avg_total_io_ops_per_second
+#
+#    - ibm_spectrum_metric_id: 819
+#      event_field_name: storage_avg_read_mb_per_second
+#
+#    - ibm_spectrum_metric_id: 820
+#      event_field_name: storage_avg_write_mb_per_second
+#
+#    - ibm_spectrum_metric_id: 821
+#      event_field_name: storage_avg_total_mb_per_second
+#
+#    - ibm_spectrum_metric_id: 822
+#      event_field_name: storage_avg_read_ms_per_operation
+#
+#    - ibm_spectrum_metric_id: 823
+#      event_field_name: storage_avg_write_ms_per_operation
+#
+#    - ibm_spectrum_metric_id: 824
+#      event_field_name: storage_avg_total_ms_per_operation
+#
+#  switches:
+#    - ibm_spectrum_metric_id: 860
+#      event_field_name: storage_switcher_avg_total_mb_per
+#
+#  pools:
+#    properties:
+#      - property_name: Capacity
+#        event_field_name: storage_usable_capacity_GiB
+#
+#      - property_name: Total Volume Capacity
+#        event_field_name: storage_allocagted_capacity_GiB
+#
+#      - property_name: Allocated Space
+#        event_field_name: storage_used_capacity_GiB
+#
+#      - property_name: Available Pool Space
+#        event_field_name: storage_free_capacity_GiB

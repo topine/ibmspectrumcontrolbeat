@@ -34,6 +34,7 @@ require (
 	github.com/magefile/mage v1.11.0
 	github.com/mitchellh/gox v1.0.1
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pierrre/gotestcover v0.0.0-20160517101806-924dca7d15f0
 	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
@@ -41,7 +42,7 @@ require (
 	go.elastic.co/apm v1.11.0 // indirect
 	go.elastic.co/ecszap v1.0.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
-	go.uber.org/zap v1.16.0 // indirect
+	go.uber.org/zap v1.16.0
 	golang.org/x/crypto v0.0.0-20210505212654-3497b51f5e64 // indirect
 	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5
 	golang.org/x/net v0.0.0-20210505214959-0714010a04ed // indirect
@@ -49,7 +50,7 @@ require (
 	golang.org/x/tools v0.1.0
 	google.golang.org/genproto v0.0.0-20210505142820-a42aa055cf76 // indirect
 	google.golang.org/grpc v1.37.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/gotestsum v1.6.4
 	honnef.co/go/tools v0.1.4 // indirect
 	howett.net/plist v0.0.0-20201203080718-1454fab16a06 // indirect
